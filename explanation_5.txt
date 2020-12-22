@@ -1,0 +1,13 @@
+Apply Dict to store the children.
+
+Find Method
+Time Complexity: O(n) - Iterate through every char.
+Space Complexity: O(1) - No memory is allocated
+
+Insert Method
+Time Complexity: O(n) - Iterate through every char.
+Space Complexity: O(n) - n chars to be allocated
+
+Suffixes Method 
+Time Complexity: O(n) - Iterate through every char.
+Space Complexity: O(1) - No memory is allocated

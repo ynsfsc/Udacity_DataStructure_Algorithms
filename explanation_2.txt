@@ -1,0 +1,8 @@
+Firstly, using recursion to find the pivoting index (the smallest element index) in this array.
+After that, recursively search the input element in array[0:pivot] if element is greater than array[0] (in this situation, element must be greater than all the elements in array[pivot:-1]). Recursively search the input element in array[pivot+1:-1] if element is smaller than array[0]. Return pivot if array[pivot] equals to the input.
+
+n - array length
+Time Complexity: O(log n)
+O(logn) - find pivot
+O(logn) - search for element in specific sub-interval
+Space Complexity: O(n)

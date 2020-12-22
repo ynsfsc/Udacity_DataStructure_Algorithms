@@ -1,0 +1,5 @@
+Starting from mid of [0,num] interval, then do a comparison and divide the interval into half size then continue.
+
+n - input number
+Time Complexity: O(logn)
+Space Complexity: O(1)

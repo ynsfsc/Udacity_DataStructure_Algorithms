@@ -1,0 +1,6 @@
+Firstly, sets the initial min and max values both as the first value in the array;
+Iterates once through the array and adjusts min and max accordingly.
+
+Time Complexity: O(n) - Single Traverse.
+
+Space Complexity: O(1) - No additional memory is allocated.

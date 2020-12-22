@@ -1,0 +1,8 @@
+Create a dictionary for saving the 0,1,2 apperance times by traversing once of the array;
+Return the correspoding 0,1,2 combination array.
+
+Time Complexity: O(n)
+Single traversal
+
+Space Complexity: O(1)
+Constant space dict

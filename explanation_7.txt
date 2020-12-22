@@ -1,0 +1,13 @@
+Same as problem 5 with small differences;
+Path splitted around the '/' character;
+Not Found Handler added.
+
+n - sub-path num of input path
+
+Add Handler Method
+Time Complexity: O(n) - trie insert method - each sub-path of the path needs to be iterated through
+Space Complexity: O(n) - create a trie node for each sub-path
+
+Lookup Method
+Time Complexity: O(n) - trie find method - iterate each sub-path of the path
+Space Complexity: O(1) - no additional memory allocated

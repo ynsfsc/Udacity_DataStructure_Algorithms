@@ -1,0 +1,9 @@
+The output was always a sequential alternation of the max elements from left to right digit. So, firstly sort the array and then, 
+sequentially assign the digit num from the decending order list to the two number.
+
+Time Complexity: O(nlog n)
+Merge Sort - O(nlog n)
+Assigment - O(n)
+
+Space Complexity: O(n)
+New list created during and after sorting
